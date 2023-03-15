@@ -1,0 +1,17 @@
+C:\COMLab3\Lab3_4\bin\Debug\net6.0\Lab3_4.exe
+C:\COMLab3\Lab3_4\bin\Debug\net6.0\Lab3_4.deps.json
+C:\COMLab3\Lab3_4\bin\Debug\net6.0\Lab3_4.runtimeconfig.json
+C:\COMLab3\Lab3_4\bin\Debug\net6.0\Lab3_4.dll
+C:\COMLab3\Lab3_4\bin\Debug\net6.0\Lab3_4.pdb
+C:\COMLab3\Lab3_4\bin\Debug\net6.0\KlasaLib.dll
+C:\COMLab3\Lab3_4\obj\Debug\net6.0\Lab3_4.csproj.AssemblyReference.cache
+C:\COMLab3\Lab3_4\obj\Debug\net6.0\Lab3_4.GeneratedMSBuildEditorConfig.editorconfig
+C:\COMLab3\Lab3_4\obj\Debug\net6.0\Lab3_4.AssemblyInfoInputs.cache
+C:\COMLab3\Lab3_4\obj\Debug\net6.0\Lab3_4.AssemblyInfo.cs
+C:\COMLab3\Lab3_4\obj\Debug\net6.0\Lab3_4.csproj.CoreCompileInputs.cache
+C:\COMLab3\Lab3_4\obj\Debug\net6.0\Lab3_4.csproj.CopyComplete
+C:\COMLab3\Lab3_4\obj\Debug\net6.0\Lab3_4.dll
+C:\COMLab3\Lab3_4\obj\Debug\net6.0\refint\Lab3_4.dll
+C:\COMLab3\Lab3_4\obj\Debug\net6.0\Lab3_4.pdb
+C:\COMLab3\Lab3_4\obj\Debug\net6.0\Lab3_4.genruntimeconfig.cache
+C:\COMLab3\Lab3_4\obj\Debug\net6.0\ref\Lab3_4.dll

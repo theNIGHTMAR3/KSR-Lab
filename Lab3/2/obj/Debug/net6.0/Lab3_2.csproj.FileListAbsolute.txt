@@ -1,0 +1,15 @@
+C:\Lab3_184631\2\bin\Debug\net6.0\Lab3_2.exe
+C:\Lab3_184631\2\bin\Debug\net6.0\Lab3_2.deps.json
+C:\Lab3_184631\2\bin\Debug\net6.0\Lab3_2.runtimeconfig.json
+C:\Lab3_184631\2\bin\Debug\net6.0\Lab3_2.dll
+C:\Lab3_184631\2\bin\Debug\net6.0\Lab3_2.pdb
+C:\Lab3_184631\2\obj\Debug\net6.0\Lab3_2.csproj.AssemblyReference.cache
+C:\Lab3_184631\2\obj\Debug\net6.0\Lab3_2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Lab3_184631\2\obj\Debug\net6.0\Lab3_2.AssemblyInfoInputs.cache
+C:\Lab3_184631\2\obj\Debug\net6.0\Lab3_2.AssemblyInfo.cs
+C:\Lab3_184631\2\obj\Debug\net6.0\Lab3_2.csproj.CoreCompileInputs.cache
+C:\Lab3_184631\2\obj\Debug\net6.0\Lab3_2.dll
+C:\Lab3_184631\2\obj\Debug\net6.0\refint\Lab3_2.dll
+C:\Lab3_184631\2\obj\Debug\net6.0\Lab3_2.pdb
+C:\Lab3_184631\2\obj\Debug\net6.0\Lab3_2.genruntimeconfig.cache
+C:\Lab3_184631\2\obj\Debug\net6.0\ref\Lab3_2.dll
