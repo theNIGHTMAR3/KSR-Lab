@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="klasacOut">
+      <HintPath>klasacOut.dll</HintPath>
+    </Reference>
+    <Reference Include="KlasaLib">
+      <HintPath>KlasaLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

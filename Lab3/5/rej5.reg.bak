@@ -15,13 +15,13 @@ REGEDIT4
 "Class"="KSRLab3+Klasa2"
 "Assembly"="klasa2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=a5b57bff9a8264ad"
 "RuntimeVersion"="v4.0.30319"
-"CodeBase"="file:///C:/Lab3_184631/5/klasa2.dll"
+"CodeBase"="file:///C:/Lab3_184631/5/klasa2/klasa2.dll"
 
 [HKEY_CURRENT_USER\Software\Classes\WOW6432Node\CLSID\{F08FB011-E87D-472E-9886-659C2559FB10}\InprocServer32\1.0.0.0]
 "Class"="KSRLab3+Klasa2"
 "Assembly"="klasa2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=a5b57bff9a8264ad"
 "RuntimeVersion"="v4.0.30319"
-"CodeBase"="file:///C:/Lab3_184631/5/klasa2.dll"
+"CodeBase"="file:///C:/Lab3_184631/5/klasa2/klasa2.dll"
 
 [HKEY_CURRENT_USER\Software\Classes\CLSID\{F08FB011-E87D-472E-9886-659C2559FB10}\ProgId]
 @="KSR20.COM3Klasa.2"
