@@ -1,0 +1,10 @@
+C:\Users\micha\Desktop\Informatyka\KSR-Lab\Lab4\Lab4_server\bin\Debug\Lab4_server.exe.config
+C:\Users\micha\Desktop\Informatyka\KSR-Lab\Lab4\Lab4_server\bin\Debug\Lab4_server.exe
+C:\Users\micha\Desktop\Informatyka\KSR-Lab\Lab4\Lab4_server\bin\Debug\Lab4_server.pdb
+C:\Users\micha\Desktop\Informatyka\KSR-Lab\Lab4\Lab4_server\bin\Debug\KSR_WCF1.dll
+C:\Users\micha\Desktop\Informatyka\KSR-Lab\Lab4\Lab4_server\obj\Debug\Lab4_server.csproj.AssemblyReference.cache
+C:\Users\micha\Desktop\Informatyka\KSR-Lab\Lab4\Lab4_server\obj\Debug\Lab4_server.csproj.SuggestedBindingRedirects.cache
+C:\Users\micha\Desktop\Informatyka\KSR-Lab\Lab4\Lab4_server\obj\Debug\Lab4_server.csproj.CoreCompileInputs.cache
+C:\Users\micha\Desktop\Informatyka\KSR-Lab\Lab4\Lab4_server\obj\Debug\Lab4_server.csproj.CopyComplete
+C:\Users\micha\Desktop\Informatyka\KSR-Lab\Lab4\Lab4_server\obj\Debug\Lab4_server.exe
+C:\Users\micha\Desktop\Informatyka\KSR-Lab\Lab4\Lab4_server\obj\Debug\Lab4_server.pdb
