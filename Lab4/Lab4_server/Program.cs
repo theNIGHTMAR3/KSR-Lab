@@ -6,7 +6,7 @@ using System.ServiceModel;
 using System.ServiceModel.Description;
 using System.Text;
 using System.Threading.Tasks;
-using System.ServiceModel
+using System.ServiceModel;
 using KSR_WCF1;
 using System.Runtime.Serialization;
 
@@ -16,13 +16,13 @@ namespace Lab4_server
     {
         static void Main(string[] args)
         {
-
+            // zad2
             var host = new ServiceHost(typeof(Zadanie2));
 
             host.AddServiceEndpoint((typeof(IZadanie2)), 
                 new NetNamedPipeBinding(),
                 "net.pipe://localhost/ksr-wcf1-zad2");
-
+            
             // zad3
             var b = host.Description.Behaviors.Find<ServiceMetadataBehavior>();
             if (b == null)
@@ -31,40 +31,40 @@ namespace Lab4_server
             host.AddServiceEndpoint(ServiceMetadataBehavior.MexContractName,
                 MetadataExchangeBindings.CreateMexNamedPipeBinding(),
                 "net.pipe://localhost/metadata");
-
+            
             // zad4
             host.AddServiceEndpoint(typeof(IZadanie2),
                 new NetTcpBinding(),
-                "nwt.tcp://127.0.0.1:55765");
-
+                "net.tcp://127.0.0.1:55765");
+            
             // zad7
             var host7=new ServiceHost(typeof(Zadanie7));
             host7.AddServiceEndpoint(typeof(IZadanie7),
                 new NetNamedPipeBinding(),
-                "net.pipe://localhost/metadata2");
+                "net.pipe://localhost/ksr-wcf1-zad7");
 
             var b7=host7.Description.Behaviors. Find<ServiceMetadataBehavior>();
             if (b7 == null)
                 b7 = new ServiceMetadataBehavior();
 
-            host.Description.Behaviors.Add(b7);
-            host.AddServiceEndpoint(ServiceMetadataBehavior.MexContractName,
+            host7.Description.Behaviors.Add(b7);
+            host7.AddServiceEndpoint(ServiceMetadataBehavior.MexContractName,
                 MetadataExchangeBindings.CreateMexNamedPipeBinding(),
                 "net.pipe://localhost/metadata2");
 
-
+            
 
             host.Open();
-
+            host7.Open();
             Console.ReadKey();
-
             host.Close();
-
+            host7.Close();
             Console.ReadLine();
 
         }
     }
 
+    
     // zad2
     [ServiceContract] public interface IZadanie2
     {
@@ -80,7 +80,7 @@ namespace Lab4_server
         }
     }
 
-
+    
     // zad7
     [ServiceContract]
     public interface IZadanie7
@@ -110,4 +110,5 @@ namespace Lab4_server
             throw exception;
         }
     }
+    
 }
