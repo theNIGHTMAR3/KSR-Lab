@@ -1,9 +1,0 @@
-C:\Users\Michał Kuprianowicz\Desktop\Informatyka\KSR-Lab\Lab4\Lab4_server\obj\Debug\Lab4_server.csproj.AssemblyReference.cache
-C:\Users\Michał Kuprianowicz\Desktop\Informatyka\KSR-Lab\Lab4\Lab4_server\obj\Debug\Lab4_server.csproj.CoreCompileInputs.cache
-C:\Users\Michał Kuprianowicz\Desktop\Informatyka\KSR-Lab\Lab4\Lab4_server\bin\Debug\Lab4_server.exe.config
-C:\Users\Michał Kuprianowicz\Desktop\Informatyka\KSR-Lab\Lab4\Lab4_server\bin\Debug\Lab4_server.exe
-C:\Users\Michał Kuprianowicz\Desktop\Informatyka\KSR-Lab\Lab4\Lab4_server\bin\Debug\Lab4_server.pdb
-C:\Users\Michał Kuprianowicz\Desktop\Informatyka\KSR-Lab\Lab4\Lab4_server\bin\Debug\KSR_WCF1.dll
-C:\Users\Michał Kuprianowicz\Desktop\Informatyka\KSR-Lab\Lab4\Lab4_server\obj\Debug\Lab4_server.csproj.CopyComplete
-C:\Users\Michał Kuprianowicz\Desktop\Informatyka\KSR-Lab\Lab4\Lab4_server\obj\Debug\Lab4_server.exe
-C:\Users\Michał Kuprianowicz\Desktop\Informatyka\KSR-Lab\Lab4\Lab4_server\obj\Debug\Lab4_server.pdb
