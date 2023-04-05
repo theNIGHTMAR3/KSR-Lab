@@ -1,0 +1,26 @@
+1. publikacja informacji o usłudze (self-hosting)		15%
+   proszę udostępnić usługę z metodą:
+   string ScalNapisy(string a, string b)
+   i opublikować informacje o niej na lokalnym komputerze
+   na porcie 35421
+2. wyszukiwanie usługi						15%
+   należy wyszukać opublikowaną przez siebie usługę i skorzystać
+   z niej we własnym kliencie
+3. REST: proszę udostępnić bezparametrową metodę zwracającą	20%
+   zawartość pliku index.xhtml, dostępną pod adresem
+   <adres serwisu>/index.html
+   (serwer hostowany w IIS)
+4. REST: proszę dodatkowo zaimplementować metodę dodającą dwie	15%
+   liczby i zwracającą int pod adresem Dodaj/parametr1/parametr2
+   obsługującą zapytania typu POST
+5. klient w C# wołający metodę z pkt 4.				15%
+6. routing: klient, router i dwa serwisy implementujące ten	20%
+   sam interfejs z jedną metodą Dodaj, zwracającą sumę swoich
+   parametrów; jeden z serwisów powinien być zapasowy: routing
+   przekazuje wołania do pierwszego serwisu, chyba, że ten
+   jest niedostępny, wtedy do drugiego
+   serwery i router: self-hosted
+   binding: dowolny dający się uruchomić w laboratorium
+
+uwaga: wysyłając kody proszę dołączyć również plik web.config
+i plik projektu dla zadań 3 i 4
