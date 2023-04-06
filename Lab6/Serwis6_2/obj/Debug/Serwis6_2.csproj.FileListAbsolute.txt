@@ -1,0 +1,8 @@
+C:\Users\micha\Desktop\Informatyka\KSR-Lab\Lab6\Serwis6_2\bin\Debug\Serwis6_2.exe.config
+C:\Users\micha\Desktop\Informatyka\KSR-Lab\Lab6\Serwis6_2\bin\Debug\Serwis6_2.exe
+C:\Users\micha\Desktop\Informatyka\KSR-Lab\Lab6\Serwis6_2\bin\Debug\Serwis6_2.pdb
+C:\Users\micha\Desktop\Informatyka\KSR-Lab\Lab6\Serwis6_2\obj\Debug\Serwis6_2.csproj.AssemblyReference.cache
+C:\Users\micha\Desktop\Informatyka\KSR-Lab\Lab6\Serwis6_2\obj\Debug\Serwis6_2.csproj.SuggestedBindingRedirects.cache
+C:\Users\micha\Desktop\Informatyka\KSR-Lab\Lab6\Serwis6_2\obj\Debug\Serwis6_2.csproj.CoreCompileInputs.cache
+C:\Users\micha\Desktop\Informatyka\KSR-Lab\Lab6\Serwis6_2\obj\Debug\Serwis6_2.exe
+C:\Users\micha\Desktop\Informatyka\KSR-Lab\Lab6\Serwis6_2\obj\Debug\Serwis6_2.pdb

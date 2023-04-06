@@ -1,0 +1,8 @@
+C:\Users\micha\Desktop\Informatyka\KSR-Lab\Lab6\Router6\bin\Debug\Router6.exe.config
+C:\Users\micha\Desktop\Informatyka\KSR-Lab\Lab6\Router6\bin\Debug\Router6.exe
+C:\Users\micha\Desktop\Informatyka\KSR-Lab\Lab6\Router6\bin\Debug\Router6.pdb
+C:\Users\micha\Desktop\Informatyka\KSR-Lab\Lab6\Router6\obj\Debug\Router6.csproj.AssemblyReference.cache
+C:\Users\micha\Desktop\Informatyka\KSR-Lab\Lab6\Router6\obj\Debug\Router6.csproj.SuggestedBindingRedirects.cache
+C:\Users\micha\Desktop\Informatyka\KSR-Lab\Lab6\Router6\obj\Debug\Router6.csproj.CoreCompileInputs.cache
+C:\Users\micha\Desktop\Informatyka\KSR-Lab\Lab6\Router6\obj\Debug\Router6.exe
+C:\Users\micha\Desktop\Informatyka\KSR-Lab\Lab6\Router6\obj\Debug\Router6.pdb

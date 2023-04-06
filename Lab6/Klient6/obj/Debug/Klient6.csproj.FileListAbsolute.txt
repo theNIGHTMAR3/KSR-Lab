@@ -1,0 +1,8 @@
+C:\Users\micha\Desktop\Informatyka\KSR-Lab\Lab6\Klient6\bin\Debug\Klient6.exe.config
+C:\Users\micha\Desktop\Informatyka\KSR-Lab\Lab6\Klient6\bin\Debug\Klient6.exe
+C:\Users\micha\Desktop\Informatyka\KSR-Lab\Lab6\Klient6\bin\Debug\Klient6.pdb
+C:\Users\micha\Desktop\Informatyka\KSR-Lab\Lab6\Klient6\obj\Debug\Klient6.csproj.AssemblyReference.cache
+C:\Users\micha\Desktop\Informatyka\KSR-Lab\Lab6\Klient6\obj\Debug\Klient6.csproj.SuggestedBindingRedirects.cache
+C:\Users\micha\Desktop\Informatyka\KSR-Lab\Lab6\Klient6\obj\Debug\Klient6.csproj.CoreCompileInputs.cache
+C:\Users\micha\Desktop\Informatyka\KSR-Lab\Lab6\Klient6\obj\Debug\Klient6.exe
+C:\Users\micha\Desktop\Informatyka\KSR-Lab\Lab6\Klient6\obj\Debug\Klient6.pdb
