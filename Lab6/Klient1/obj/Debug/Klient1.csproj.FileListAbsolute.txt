@@ -1,0 +1,7 @@
+C:\KSR\Lab6\Klient1\bin\Debug\Klient1.exe.config
+C:\KSR\Lab6\Klient1\bin\Debug\Klient1.exe
+C:\KSR\Lab6\Klient1\bin\Debug\Klient1.pdb
+C:\KSR\Lab6\Klient1\obj\Debug\Klient1.csproj.AssemblyReference.cache
+C:\KSR\Lab6\Klient1\obj\Debug\Klient1.csproj.CoreCompileInputs.cache
+C:\KSR\Lab6\Klient1\obj\Debug\Klient1.exe
+C:\KSR\Lab6\Klient1\obj\Debug\Klient1.pdb

@@ -5,3 +5,10 @@ C:\Users\Michał Kuprianowicz\Desktop\Informatyka\KSR-Lab\Lab6\Lab6_1\obj\Debug\
 C:\Users\Michał Kuprianowicz\Desktop\Informatyka\KSR-Lab\Lab6\Lab6_1\obj\Debug\Lab6_1.csproj.CoreCompileInputs.cache
 C:\Users\Michał Kuprianowicz\Desktop\Informatyka\KSR-Lab\Lab6\Lab6_1\obj\Debug\Lab6_1.exe
 C:\Users\Michał Kuprianowicz\Desktop\Informatyka\KSR-Lab\Lab6\Lab6_1\obj\Debug\Lab6_1.pdb
+C:\KSR\Lab6\Lab6_1\bin\Debug\Lab6_1.exe.config
+C:\KSR\Lab6\Lab6_1\bin\Debug\Lab6_1.exe
+C:\KSR\Lab6\Lab6_1\bin\Debug\Lab6_1.pdb
+C:\KSR\Lab6\Lab6_1\obj\Debug\Lab6_1.csproj.AssemblyReference.cache
+C:\KSR\Lab6\Lab6_1\obj\Debug\Lab6_1.csproj.CoreCompileInputs.cache
+C:\KSR\Lab6\Lab6_1\obj\Debug\Lab6_1.exe
+C:\KSR\Lab6\Lab6_1\obj\Debug\Lab6_1.pdb

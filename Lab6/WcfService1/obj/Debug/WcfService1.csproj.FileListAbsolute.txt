@@ -1,0 +1,14 @@
+C:\KSR\Lab6\temp\xD\WcfService1\bin\WcfService1.dll.config
+C:\KSR\Lab6\temp\xD\WcfService1\bin\WcfService1.dll
+C:\KSR\Lab6\temp\xD\WcfService1\bin\WcfService1.pdb
+C:\KSR\Lab6\temp\xD\WcfService1\obj\Debug\WcfService1.csproj.AssemblyReference.cache
+C:\KSR\Lab6\temp\xD\WcfService1\obj\Debug\WcfService1.csproj.CoreCompileInputs.cache
+C:\KSR\Lab6\temp\xD\WcfService1\obj\Debug\WcfService1.dll
+C:\KSR\Lab6\temp\xD\WcfService1\obj\Debug\WcfService1.pdb
+C:\KSR\Lab6\WcfService1\bin\WcfService1.dll.config
+C:\KSR\Lab6\WcfService1\bin\WcfService1.dll
+C:\KSR\Lab6\WcfService1\bin\WcfService1.pdb
+C:\KSR\Lab6\WcfService1\obj\Debug\WcfService1.csproj.AssemblyReference.cache
+C:\KSR\Lab6\WcfService1\obj\Debug\WcfService1.csproj.CoreCompileInputs.cache
+C:\KSR\Lab6\WcfService1\obj\Debug\WcfService1.dll
+C:\KSR\Lab6\WcfService1\obj\Debug\WcfService1.pdb
