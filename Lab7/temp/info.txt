@@ -1,0 +1,48 @@
+nazwa kolejki: kolejka<index>
+host: 153.19.51.136
+virtual host: vh<index>
+user: <index>
+hasło: ke2pemurtb8a
+
+każdy proces powinien na początku się
+przedstawić, czyli wypisać na konsolę kim
+jest, np. "nadawca", "odbiorca 2" itp.
+
+1. nadawca				20%
+wysłanie 10 wiadomości
+ze zmieniającą się treścią
+
+2. odbiorca				15%
+wypisanie na konsolę treści
+wiadomości odebranych od nadawcy
+
+3. nagłówki				10%
+ustawienie w nadawcy i wypisanie
+w odbiorcy dwóch różnych nagłówków
+w każdej wiadomości
+
+4. drugi odbiorca			10%
+konkuruje z pierwszym o wiadomości
+(nadawca wysyła 10 wiadomości,
+pierwszy odbiera np. 4, drugi 6)
+
+5. potwierdzenia			15%
+odbiorcy potwierdzają każdą wiadomość
+po 100 milisekundach; nie powinni
+otrzymać kolejnej wiadomości, póki nie
+potwierdzą poprzedniej
+
+6. odpowiedzi				10%
+drugi odbiorca odpowiada na
+wiadomości; nadawca wypisuje na
+konsolę treść odpowiedzi
+
+7. publish/subscribe			20%
+1 wydawca, 2 abonentów
+wydawca wysyła 10 wiadomości na
+kanałach abc.def i abc.xyz (na przemian)
+pierwszy abonent odbiera z kanałów
+zaczynających się na abc, drugi odbiera
+z kanałów kończących się na xyz
+(wiadomości z kanału abc.xyz powinny
+docierać do obu abonentów).
