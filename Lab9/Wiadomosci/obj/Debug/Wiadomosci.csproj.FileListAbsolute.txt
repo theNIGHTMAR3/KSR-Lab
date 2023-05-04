@@ -1,0 +1,6 @@
+C:\Users\Michał Kuprianowicz\Desktop\Informatyka\KSR-Lab\Lab9\Wiadomosci\bin\Debug\Wiadomosci.dll
+C:\Users\Michał Kuprianowicz\Desktop\Informatyka\KSR-Lab\Lab9\Wiadomosci\bin\Debug\Wiadomosci.pdb
+C:\Users\Michał Kuprianowicz\Desktop\Informatyka\KSR-Lab\Lab9\Wiadomosci\obj\Debug\Wiadomosci.csproj.AssemblyReference.cache
+C:\Users\Michał Kuprianowicz\Desktop\Informatyka\KSR-Lab\Lab9\Wiadomosci\obj\Debug\Wiadomosci.csproj.CoreCompileInputs.cache
+C:\Users\Michał Kuprianowicz\Desktop\Informatyka\KSR-Lab\Lab9\Wiadomosci\obj\Debug\Wiadomosci.dll
+C:\Users\Michał Kuprianowicz\Desktop\Informatyka\KSR-Lab\Lab9\Wiadomosci\obj\Debug\Wiadomosci.pdb

@@ -1,0 +1,351 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MassTransit.Newtonsoft</name>
+    </assembly>
+    <members>
+        <member name="M:MassTransit.NewtonsoftBsonConfigurationExtensions.UseBsonSerializer(MassTransit.IBusFactoryConfigurator)">
+            <summary>
+            Add the Newtonsoft BSON serializer/deserializer to the bus
+            </summary>
+            <param name="configurator"></param>
+        </member>
+        <member name="M:MassTransit.NewtonsoftBsonConfigurationExtensions.UseBsonDeserializer(MassTransit.IBusFactoryConfigurator,System.Boolean)">
+            <summary>
+            Add the Newtonsoft BSON deserializer to the bus
+            </summary>
+            <param name="configurator"></param>
+            <param name="isDefault"></param>
+        </member>
+        <member name="M:MassTransit.NewtonsoftBsonConfigurationExtensions.UseBsonSerializer(MassTransit.IReceiveEndpointConfigurator)">
+            <summary>
+            Add the Newtonsoft BSON serializer/deserializer to the receive endpoint
+            </summary>
+            <param name="configurator"></param>
+        </member>
+        <member name="M:MassTransit.NewtonsoftBsonConfigurationExtensions.UseBsonDeserializer(MassTransit.IReceiveEndpointConfigurator,System.Boolean)">
+            <summary>
+            Add the Newtonsoft BSON deserializer to the receive endpoint
+            </summary>
+            <param name="configurator"></param>
+            <param name="isDefault"></param>
+        </member>
+        <member name="M:MassTransit.NewtonsoftBsonConfigurationExtensions.ConfigureBsonSerializer(MassTransit.IBusFactoryConfigurator,System.Func{Newtonsoft.Json.JsonSerializerSettings,Newtonsoft.Json.JsonSerializerSettings})">
+            <summary>
+            Configure the Newtonsoft BSON serializer (does NOT add it to the bus as a message serializer)
+            </summary>
+            <param name="configurator"></param>
+            <param name="configure"></param>
+            <remarks>
+            These settings are applied globally to <see cref="F:MassTransit.Serialization.NewtonsoftJsonMessageSerializer.SerializerSettings" />.
+            </remarks>
+        </member>
+        <member name="M:MassTransit.NewtonsoftBsonConfigurationExtensions.ConfigureBsonDeserializer(MassTransit.IBusFactoryConfigurator,System.Func{Newtonsoft.Json.JsonSerializerSettings,Newtonsoft.Json.JsonSerializerSettings})">
+            <summary>
+            Configure the Newtonsoft BSON deserializer and add it to the bus as a message deserializer.
+            </summary>
+            <param name="configurator"></param>
+            <param name="configure"></param>
+            <remarks>
+            These settings are applied globally to <see cref="F:MassTransit.Serialization.NewtonsoftJsonMessageSerializer.SerializerSettings" />.
+            </remarks>
+        </member>
+        <member name="M:MassTransit.NewtonsoftJsonConfigurationExtensions.UseNewtonsoftJsonSerializer(MassTransit.IBusFactoryConfigurator)">
+            <summary>
+            Add the Newtonsoft JSON serializer/deserializer to the bus
+            </summary>
+            <param name="configurator"></param>
+        </member>
+        <member name="M:MassTransit.NewtonsoftJsonConfigurationExtensions.UseNewtonsoftJsonSerializer(MassTransit.IReceiveEndpointConfigurator)">
+            <summary>
+            Add the Newtonsoft JSON serializer/deserializer to the receive endpoint
+            </summary>
+            <param name="configurator"></param>
+        </member>
+        <member name="M:MassTransit.NewtonsoftJsonConfigurationExtensions.UseNewtonsoftJsonDeserializer(MassTransit.IBusFactoryConfigurator,System.Boolean)">
+            <summary>
+            Add the Newtonsoft JSON deserializer to the bus
+            </summary>
+            <param name="configurator"></param>
+            <param name="isDefault"></param>
+        </member>
+        <member name="M:MassTransit.NewtonsoftJsonConfigurationExtensions.UseNewtonsoftJsonDeserializer(MassTransit.IReceiveEndpointConfigurator,System.Boolean)">
+            <summary>
+            Add the Newtonsoft JSON deserializer to the receive endpoint
+            </summary>
+            <param name="configurator"></param>
+            <param name="isDefault"></param>
+        </member>
+        <member name="M:MassTransit.NewtonsoftJsonConfigurationExtensions.ConfigureNewtonsoftJsonSerializer(MassTransit.IBusFactoryConfigurator,System.Func{Newtonsoft.Json.JsonSerializerSettings,Newtonsoft.Json.JsonSerializerSettings})">
+            <summary>
+            Configure the Newtonsoft JSON serializer (does NOT add it to the bus as a message serializer)
+            </summary>
+            <param name="configurator"></param>
+            <param name="configure"></param>
+            <remarks>
+            These settings are applied globally to <see cref="F:MassTransit.Serialization.NewtonsoftJsonMessageSerializer.SerializerSettings" />.
+            </remarks>
+        </member>
+        <member name="M:MassTransit.NewtonsoftJsonConfigurationExtensions.ConfigureNewtonsoftJsonDeserializer(MassTransit.IBusFactoryConfigurator,System.Func{Newtonsoft.Json.JsonSerializerSettings,Newtonsoft.Json.JsonSerializerSettings})">
+            <summary>
+            Configure the Newtonsoft JSON deserializer and add it to the bus as a message deserializer.
+            </summary>
+            <param name="configurator"></param>
+            <param name="configure"></param>
+            <remarks>
+            These settings are applied globally to <see cref="F:MassTransit.Serialization.NewtonsoftJsonMessageSerializer.SerializerSettings" />.
+            </remarks>
+        </member>
+        <member name="M:MassTransit.NewtonsoftRawJsonConfigurationExtensions.UseNewtonsoftRawJsonSerializer(MassTransit.IBusFactoryConfigurator,MassTransit.Serialization.RawSerializerOptions)">
+            <summary>
+            Add the Newtonsoft raw JSON serializer/deserializer to the bus
+            </summary>
+            <param name="configurator"></param>
+            <param name="options">Options for the raw serializer behavior</param>
+        </member>
+        <member name="M:MassTransit.NewtonsoftRawJsonConfigurationExtensions.AddNewtonsoftRawJsonSerializer(MassTransit.IBusFactoryConfigurator,MassTransit.Serialization.RawSerializerOptions)">
+            <summary>
+            Add support for RAW JSON message serialization and deserialization using Newtonsoft (does not change the default serializer)
+            </summary>
+            <param name="configurator"></param>
+            <param name="options">Options for the raw serializer behavior</param>
+        </member>
+        <member name="M:MassTransit.NewtonsoftRawJsonConfigurationExtensions.UseNewtonsoftRawJsonDeserializer(MassTransit.IBusFactoryConfigurator,MassTransit.Serialization.RawSerializerOptions)">
+            <summary>
+            Add the Newtonsoft raw JSON deserializer to the bus
+            </summary>
+            <param name="configurator"></param>
+            <param name="options">Options for the raw serializer behavior</param>
+        </member>
+        <member name="M:MassTransit.NewtonsoftRawJsonConfigurationExtensions.UseNewtonsoftRawJsonSerializer(MassTransit.IReceiveEndpointConfigurator,MassTransit.Serialization.RawSerializerOptions)">
+            <summary>
+            Add the Newtonsoft raw JSON serializer/deserializer to the receive endpoint
+            </summary>
+            <param name="configurator"></param>
+            <param name="options">Options for the raw serializer behavior</param>
+        </member>
+        <member name="M:MassTransit.NewtonsoftRawJsonConfigurationExtensions.UseNewtonsoftRawJsonDeserializer(MassTransit.IReceiveEndpointConfigurator,MassTransit.Serialization.RawSerializerOptions)">
+            <summary>
+            Add the Newtonsoft raw JSON deserializer to the receive endpoint
+            </summary>
+            <param name="configurator"></param>
+            <param name="options">Options for the raw serializer behavior</param>
+        </member>
+        <member name="M:MassTransit.NewtonsoftRawXmlConfigurationExtensions.UseRawXmlSerializer(MassTransit.IBusFactoryConfigurator,MassTransit.Serialization.RawSerializerOptions)">
+            <summary>
+            Add the Newtonsoft raw XML serializer/deserializer to the bus
+            </summary>
+            <param name="configurator"></param>
+            <param name="options">Options for the raw serializer behavior</param>
+        </member>
+        <member name="M:MassTransit.NewtonsoftRawXmlConfigurationExtensions.UseRawXmlSerializer(MassTransit.IReceiveEndpointConfigurator,MassTransit.Serialization.RawSerializerOptions)">
+            <summary>
+            Add the Newtonsoft raw XML serializer/deserializer to the receive endpoint
+            </summary>
+            <param name="configurator"></param>
+            <param name="options">Options for the raw serializer behavior</param>
+        </member>
+        <member name="M:MassTransit.NewtonsoftRawXmlConfigurationExtensions.UseRawXmlDeserializer(MassTransit.IBusFactoryConfigurator,MassTransit.Serialization.RawSerializerOptions)">
+            <summary>
+            Add the Newtonsoft raw XML deserializer to the bus
+            </summary>
+            <param name="configurator"></param>
+            <param name="options">Options for the raw serializer behavior</param>
+        </member>
+        <member name="M:MassTransit.NewtonsoftRawXmlConfigurationExtensions.UseRawXmlDeserializer(MassTransit.IReceiveEndpointConfigurator,MassTransit.Serialization.RawSerializerOptions)">
+            <summary>
+            Add the Newtonsoft raw XML deserializer to the receive endpoint
+            </summary>
+            <param name="configurator"></param>
+            <param name="options">Options for the raw serializer behavior</param>
+        </member>
+        <member name="M:MassTransit.NewtonsoftXmlConfigurationExtensions.UseXmlSerializer(MassTransit.IBusFactoryConfigurator)">
+            <summary>
+            Add the Newtonsoft XML serializer/deserializer to the bus
+            </summary>
+            <param name="configurator"></param>
+        </member>
+        <member name="M:MassTransit.NewtonsoftXmlConfigurationExtensions.UseXmlSerializer(MassTransit.IReceiveEndpointConfigurator)">
+            <summary>
+            Add the Newtonsoft XML serializer/deserializer to the receive endpoint
+            </summary>
+            <param name="configurator"></param>
+        </member>
+        <member name="M:MassTransit.NewtonsoftXmlConfigurationExtensions.UseXmlDeserializer(MassTransit.IBusFactoryConfigurator,System.Boolean)">
+            <summary>
+            Add the Newtonsoft XML deserializer to the bus
+            </summary>
+            <param name="configurator"></param>
+            <param name="isDefault"></param>
+        </member>
+        <member name="M:MassTransit.NewtonsoftXmlConfigurationExtensions.UseXmlDeserializer(MassTransit.IReceiveEndpointConfigurator,System.Boolean)">
+            <summary>
+            Add the Newtonsoft XML deserializer to the receive endpoint
+            </summary>
+            <param name="configurator"></param>
+            <param name="isDefault"></param>
+        </member>
+        <member name="M:MassTransit.SerializerConfigurationExtensions.UseEncryptedSerializerV2(MassTransit.IBusFactoryConfigurator,MassTransit.Serialization.ICryptoStreamProviderV2)">
+            <summary>
+            Serialize messages using the BSON message serializer with AES Encryption
+            </summary>
+            <param name="configurator"></param>
+            <param name="provider"></param>
+        </member>
+        <member name="M:MassTransit.SerializerConfigurationExtensions.UseEncryptedSerializerV2(MassTransit.IReceiveEndpointConfigurator,MassTransit.Serialization.ICryptoStreamProviderV2)">
+            <summary>
+            Serialize messages using the BSON message serializer with AES Encryption
+            </summary>
+            <param name="configurator"></param>
+            <param name="provider"></param>
+        </member>
+        <member name="M:MassTransit.SerializerConfigurationExtensions.UseEncryption(MassTransit.IBusFactoryConfigurator,System.Byte[])">
+            <summary>
+            Serialize messages using the BSON message serializer with AES Encryption
+            </summary>
+            <param name="configurator"></param>
+            <param name="symmetricKey">
+            Cryptographic key for both encryption of plaintext message and decryption of ciphertext message
+            </param>
+        </member>
+        <member name="M:MassTransit.SerializerConfigurationExtensions.UseEncryption(MassTransit.IReceiveEndpointConfigurator,System.Byte[])">
+            <summary>
+            Serialize messages using the BSON message serializer with AES Encryption
+            </summary>
+            <param name="configurator"></param>
+            <param name="symmetricKey">
+            Cryptographic key for both encryption of plaintext message and decryption of ciphertext message
+            </param>
+        </member>
+        <member name="M:MassTransit.SerializerConfigurationExtensions.UseEncryption(MassTransit.IBusFactoryConfigurator,MassTransit.Serialization.ISecureKeyProvider)">
+            <summary>
+            Serialize messages using the BSON message serializer with AES Encryption
+            </summary>
+            <param name="configurator"></param>
+            <param name="keyProvider">
+            The custom key provider to provide the symmetric key for encryption of plaintext message and decryption of ciphertext message
+            </param>
+        </member>
+        <member name="M:MassTransit.SerializerConfigurationExtensions.UseEncryption(MassTransit.IReceiveEndpointConfigurator,MassTransit.Serialization.ISecureKeyProvider)">
+            <summary>
+            Serialize messages using the BSON message serializer with AES Encryption
+            </summary>
+            <param name="configurator"></param>
+            <param name="keyProvider">
+            The custom key provider to provide the symmetric key for encryption of plaintext message and decryption of ciphertext message
+            </param>
+        </member>
+        <member name="M:MassTransit.Serialization.CryptoStreamProviderExtensions.GetEncryptStream(MassTransit.Serialization.ICryptoStreamProvider,System.IO.Stream,MassTransit.SendContext)">
+            <summary>
+            Returns a stream with the encryption bits in place to ensure proper message encryption
+            </summary>
+            <param name="provider">The crypto stream provider</param>
+            <param name="stream">The original stream to which the encrypted message content is written</param>
+            <param name="context">The second context of the message</param>
+            <returns>A stream for serializing the message which will be encrypted</returns>
+        </member>
+        <member name="M:MassTransit.Serialization.CryptoStreamProviderExtensions.GetEncryptStream(MassTransit.Serialization.ICryptoStreamProvider,System.IO.Stream,MassTransit.TransformContext)">
+            <summary>
+            Returns a stream with the encryption bits in place to ensure proper message encryption
+            </summary>
+            <param name="provider">The crypto stream provider</param>
+            <param name="stream">The original stream to which the encrypted message content is written</param>
+            <param name="context">The second context of the message</param>
+            <returns>A stream for serializing the message which will be encrypted</returns>
+        </member>
+        <member name="M:MassTransit.Serialization.CryptoStreamProviderExtensions.GetDecryptStream(MassTransit.Serialization.ICryptoStreamProvider,System.IO.Stream,MassTransit.Headers)">
+            <summary>
+            Returns a stream for decrypting the message
+            </summary>
+            <param name="provider">The crypto stream provider</param>
+            <param name="stream">The original stream to which the encrypted message content is written</param>
+            <param name="headers"></param>
+            <returns>A stream for serializing the message which will be encrypted</returns>
+        </member>
+        <member name="M:MassTransit.Serialization.CryptoStreamProviderExtensions.GetDecryptStream(MassTransit.Serialization.ICryptoStreamProvider,System.IO.Stream,MassTransit.TransformContext)">
+            <summary>
+            Returns a stream for decrypting the message
+            </summary>
+            <param name="provider">The crypto stream provider</param>
+            <param name="stream">The original stream to which the encrypted message content is written</param>
+            <param name="context">The second context of the message</param>
+            <returns>A stream for serializing the message which will be encrypted</returns>
+        </member>
+        <member name="M:MassTransit.Serialization.CryptoStreamProviderExtensions.SetEncryptionKeyId``1(MassTransit.IPipeConfigurator{MassTransit.SendContext{``0}},System.String)">
+            <summary>
+            Set the encryption key name on the header so that it can be applied by the crypto stream provider
+            </summary>
+            <param name="configurator"></param>
+            <param name="keyName"></param>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:MassTransit.Serialization.CryptoStreamProviderExtensions.SetEncryptionKeyId``1(MassTransit.SendContext{``0},System.String)">
+            <summary>
+            Set the encryption key name on the header so that it can be applied by the crypto stream provider
+            </summary>
+            <param name="sendContext"></param>
+            <param name="keyName"></param>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="T:MassTransit.Serialization.JsonEnvelopeHeaders">
+            <summary>
+            The headers stored in the message envelope
+            </summary>
+        </member>
+        <member name="T:MassTransit.Serialization.JsonMessageContext`1">
+            <summary>
+            While not used by MassTransit, this helper class can be used to deserialize a JSON message.
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="T:MassTransit.Serialization.NewtonsoftBsonBodyMessageSerializer">
+            <summary>
+            Used to serialize an existing deserialized message when a message is forwarded, scheduled, etc.
+            </summary>
+        </member>
+        <member name="T:MassTransit.Serialization.NewtonsoftEncryptedBodyMessageSerializer">
+            <summary>
+            Used to serialize an existing deserialized message when a message is forwarded, scheduled, etc.
+            </summary>
+        </member>
+        <member name="T:MassTransit.Serialization.NewtonsoftEncryptedV2BodyMessageSerializer">
+            <summary>
+            Used to serialize an existing deserialized message when a message is forwarded, scheduled, etc.
+            </summary>
+        </member>
+        <member name="T:MassTransit.Serialization.NewtonsoftJsonBodyMessageSerializer">
+            <summary>
+            Used to serialize an existing deserialized message when a message is forwarded, scheduled, etc.
+            </summary>
+        </member>
+        <member name="T:MassTransit.Serialization.NewtonsoftRawBsonBodyMessageSerializer">
+            <summary>
+            Used to serialize an existing deserialized message when a message is forwarded, scheduled, etc.
+            </summary>
+        </member>
+        <member name="T:MassTransit.Serialization.NewtonsoftRawJsonBodyMessageSerializer">
+            <summary>
+            Used to serialize an existing deserialized message when a message is forwarded, scheduled, etc.
+            </summary>
+        </member>
+        <member name="T:MassTransit.Serialization.NewtonsoftRawXmlBodyMessageSerializer">
+            <summary>
+            Used to serialize an existing deserialized message when a message is forwarded, scheduled, etc.
+            </summary>
+        </member>
+        <member name="T:MassTransit.Serialization.NewtonsoftXmlBodyMessageSerializer">
+            <summary>
+            Used to serialize an existing deserialized message when a message is forwarded, scheduled, etc.
+            </summary>
+        </member>
+        <member name="M:System.Diagnostics.CodeAnalysis.NotNullWhenAttribute.#ctor(System.Boolean)">
+            <summary>Initializes the attribute with the specified return value condition.</summary>
+            <param name="returnValue">
+            The return value condition. If the method returns this value, the associated parameter will not be null.
+            </param>
+        </member>
+        <member name="P:System.Diagnostics.CodeAnalysis.NotNullWhenAttribute.ReturnValue">
+            <summary>Gets the return value condition.</summary>
+        </member>
+    </members>
+</doc>
