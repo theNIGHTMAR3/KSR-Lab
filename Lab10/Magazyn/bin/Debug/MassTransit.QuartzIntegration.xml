@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MassTransit.QuartzIntegration</name>
+    </assembly>
+    <members>
+        <member name="M:MassTransit.QuartzRegistrationExtensions.AddQuartzConsumers(MassTransit.IBusRegistrationConfigurator,System.Action{MassTransit.QuartzEndpointOptions})">
+            <summary>
+            Add the Quartz consumers to the bus, using <see cref="T:MassTransit.QuartzEndpointOptions" /> for configuration. Also registers the
+            Quartz Bus Observer, so that Quartz is started/stopped with the bus.
+            </summary>
+            <param name="configurator"></param>
+            <param name="configure">Configure the Quartz options</param>
+        </member>
+        <member name="M:MassTransit.QuartzRegistrationExtensions.ConfigureQuartzConsumers(MassTransit.IReceiveEndpointConfigurator,MassTransit.IBusRegistrationContext)">
+            <summary>
+            When manually configuring a receive endpoint, configure the Quartz consumers for this endpoint
+            </summary>
+            <param name="configurator"></param>
+            <param name="context"></param>
+        </member>
+        <member name="T:MassTransit.QuartzIntegration.QuartzBusObserver">
+            <summary>
+            Used by container-based Quartz configurations, to start/stop Quartz along with the bus.
+            </summary>
+        </member>
+        <member name="T:MassTransit.QuartzIntegration.SchedulerBusObserver">
+            <summary>
+            Used to start and stop an in-memory scheduler using Quartz
+            </summary>
+        </member>
+        <member name="M:MassTransit.QuartzIntegration.SchedulerBusObserver.#ctor(MassTransit.QuartzSchedulerOptions)">
+            <summary>
+            Creates the bus observer to initialize the Quartz scheduler.
+            </summary>
+            <param name="options">Configuration to initialize with.</param>
+        </member>
+        <member name="P:MassTransit.QuartzSchedulerOptions.SchedulerFactory">
+            <summary>
+            Used to create the scheduler at bus start, defaults to <see cref="T:Quartz.Impl.StdSchedulerFactory" />.
+            </summary>
+        </member>
+        <member name="P:MassTransit.QuartzSchedulerOptions.QueueName">
+            <summary>
+            The queue name for the quartz service, defaults to "quartz".
+            </summary>
+        </member>
+        <member name="P:MassTransit.QuartzSchedulerOptions.JobFactoryFactory">
+            <summary>
+            Only supported when configuring the in-memory scheduler to inject the MassTransitJobFactory
+            when not using a container.
+            </summary>
+        </member>
+        <member name="P:MassTransit.QuartzSchedulerOptions.StartScheduler">
+            <summary>
+            Whether to start the scheduler when bus starts, defaults to true.
+            </summary>
+        </member>
+        <member name="M:System.Diagnostics.CodeAnalysis.NotNullWhenAttribute.#ctor(System.Boolean)">
+            <summary>Initializes the attribute with the specified return value condition.</summary>
+            <param name="returnValue">
+            The return value condition. If the method returns this value, the associated parameter will not be null.
+            </param>
+        </member>
+        <member name="P:System.Diagnostics.CodeAnalysis.NotNullWhenAttribute.ReturnValue">
+            <summary>Gets the return value condition.</summary>
+        </member>
+    </members>
+</doc>
