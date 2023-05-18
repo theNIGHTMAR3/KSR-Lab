@@ -1,0 +1,15 @@
+DiagnosticsPluginLauncher.exe Information: 0 : [18.05.2023 07:43:04] Emulator config file set to C:\Users\Michał Kuprianowicz\Desktop\Informatyka\test\Lab11\WCF\csx\Debug\roles\WorkerRole1\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [18.05.2023 07:43:04] DiagnosticsStoreRootPath set to: C:\Users\Michał Kuprianowicz\AppData\Local\dftmp\Resources\2016d037-987f-4fd8-a56b-541f56bea2ed
+DiagnosticsPluginLauncher.exe Information: 0 : [18.05.2023 07:43:04] Loading config file: C:\Users\Michał Kuprianowicz\Desktop\Informatyka\test\Lab11\WCF\csx\Debug\roles\WorkerRole1\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [18.05.2023 07:43:04] Config file to read: C:\Users\Michał Kuprianowicz\Desktop\Informatyka\test\Lab11\WCF\csx\Debug\roles\WorkerRole1\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [18.05.2023 07:43:04] Checking VM Type
+DiagnosticsPluginLauncher.exe Information: 0 : [18.05.2023 07:43:04] Emulator config file set to C:\Users\Michał Kuprianowicz\Desktop\Informatyka\test\Lab11\WCF\csx\Debug\roles\WorkerRole1\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [18.05.2023 07:43:04] Extension set to Emulator Mode
+DiagnosticsPluginLauncher.exe Information: 0 : [18.05.2023 07:43:04] Reading XML configuration file
+DiagnosticsPluginLauncher.exe Information: 0 : [18.05.2023 07:43:04] Bypassing private config decryption
+DiagnosticsPluginLauncher.exe Information: 0 : [18.05.2023 07:43:04] Stopping the running plugin, if any
+DiagnosticsPluginLauncher.exe Information: 0 : [18.05.2023 07:43:04] No DiagnosticsPlugin is running.
+DiagnosticsPluginLauncher.exe Information: 0 : [18.05.2023 07:43:04] Killing any DiagnosticsPlugin that might remain.
+DiagnosticsPluginLauncher.exe Information: 0 : [18.05.2023 07:43:04] Killing any MonAgentHost that might remain.
+DiagnosticsPluginLauncher.exe Information: 0 : [18.05.2023 07:43:04] Diagnostics plugin stopped successfully
+DiagnosticsPluginLauncher.exe Information: 0 : [18.05.2023 07:43:04] Resetting DiagnosticPlugin
